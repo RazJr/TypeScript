@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="Word.ico">
+    <title>Caliicaciones</title>
+  </head>
+  <body>
+      <h1 class="text-center mt-2">Calificaciones</h1>
+      <div class="container">
+          <div class="jumbotron">
+              <div class="row">
+                  <div class="col-2">
+                      <div class="form-group">
+                          <label for="">Teclee la Matricula</label>
+                          <input id="matricula" type="number" class="form-control" placeholder="Matricula">
+                      </div>
+                  </div>
+                  <div class="col-2">
+                    <div class="form-group">
+                        <label for=""> Matematicas</label>
+                        <input id="matematicas" type="number" class="form-control" placeholder="Matematicas">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group">
+                        <label for="">Español</label>
+                        <input id="español" type="number" class="form-control" placeholder="Español">
+                    </div>
+                </div>  
+                <div class="col-2">
+                    <div class="form-group">
+                        <label for="">Historia</label>
+                        <input id="historia" type="number" class="form-control" placeholder="Historia">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group">
+                        <label for="">Ciencias</label>
+                        <input id="ciencias" type="number" class="form-control" placeholder="Ciencias">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-group">
+                        <label for="">Geografia</label>
+                        <input id="geografia" type="number" class="form-control" placeholder="geografia">
+                    </div>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-3">
+                      <button class="btn btn-outline-dark btn-block" id="btn">Aceptar</button>
+                  </div>
+              </div>
+              <div class="row">
+                <div id="printaresult" class="alert alert-primary mt-3" role="alert">
+                </div>
+                <div id="promedio" class="alert alert-primary mt-3" role="alert">
+                </div>
+              </div>
+          </div>
+      </div>
+      <script src="./../Js/app.js"></script>
+  </body>
+</html>

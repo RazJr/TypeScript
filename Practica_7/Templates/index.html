@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="Mi PC.ico">
+    <title>Examen</title>
+  </head>
+  <body>
+      <h1 class="text-center mt-2" >Examen</h1>
+      <div class="conteiner">
+          <div class="jumbotron">
+              <div class="row">
+                  <div class="col-4">
+                      <div class="form-group">
+                        <label for="">No. de preguntas</label>
+                        <input id="preguntas" type="number" class="form-contgrol" placeholder="No. de preguntas">
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-4">
+                      <div class="form-group">
+                          <label for="">Preguntas correctas</label>
+                          <input id="correcto" type="number" class="form-control" placeholder="Preguntas correctas">
+                      </div>
+                  </div>
+                  <div class="col-4">
+                      <div class="form-group">
+                          <label for="">Preguntas incorrectas</label>
+                          <input id="incorrecto" type="number" class="form-control" placeholder="Preguntas incorrectas">
+                      </div>
+                  </div>
+                  <div class="col-4">
+                      <div class="form-group">
+                          <label for="">Preguntas en blanco</label>
+                          <input id="blanco" type="number" class="form-control" placeholder="Preguntas en blanco">
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-4">
+                      <button class="btn btn-outline-dark btn-blok" id="btn1">Aceptar</button>
+                  </div>
+              </div>
+              <div id="printaresult" class="alert alert-primary mt-3" role="alert">  
+            </div>
+          </div>
+      </div>
+      <script src="./../JS/app.js"></script>
+  </body>
+</html>
